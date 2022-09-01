@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/router/index.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1661956407723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1661956407723,
+            "name": "Commit-0",
+            "content": "import  { createRouter, createWebHistory, RouteRecordRaw} from 'vue-router'\nimport Home from '../views/Home.vue'\n\nconst routes: RouteRecordRaw[]= [{\n    path: '/',\n    component: Home\n}]\n\nconst router = createRouter({\n    routes,\n    history: createWebHistory()\n})\nexport default router\n"
+        }
+    ]
+}
